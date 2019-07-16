@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+.toolbar {
+	height:40px;
+	width:100%;
+	background-color:black;
+}
+
+.toolbar-holder {
+	text-align:center;
+	padding:12px;
+}
+
+#searchbar {
+	font-family: 'Prata', serif;
+	padding-left:10px;
+	font-size:14px;
+	font-weight:200;
+	width:10%;
+	font-family: 'Roboto Mono', monospace;
+	outline:none;
+}
+
+.menu {
+	padding:12px;
+	text-align:center;
+	margin-right:10%;
+}
+
+#logo {
+	font-size:82px;
+	 font-family: 'Roboto Mono', monospace;
+	text-align:center;
+}
+
+#featureddesigners {
+	font-family: 'Prata', serif;
+	color:white;
+}
+#designerlink, #designerlink2, #designerlink3 {
+	padding:12px;
+	display:none;
+}
+#designerlink a, #designerlink2 a, #designerlink3 a {
+	text-decoration:none;
+	color:white;
+	font-family: 'Roboto Mono', monospace;
+	padding:12px;
+	display:inline-block;
+}
+
+#designerlink a:hover, #designerlink2 a:hover, #designerlink3 a:hover{
+	/*border-bottom:black solid 1px;*/
+}
+
+#designerlinksub {
+	margin-right:5%;
+}
+
+#designerlinksub a {
+	display:block;
+	text-decoration:none;
+	font-family: 'Roboto Mono', monospace;
+	padding:12px;
+}
+.menu-link-divs {
+	margin-right:20%;
+}
+
+
+.menu-links {
+	text-decoration:none;
+	color:white;
+	padding:12px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.menu-links:hover {
+	border-bottom:white solid 1px;
+}
+
+.logo-holder {
+	text-align:center;
+}
+
+#login {
+	float:right;
+	color:white;
+	margin-left:10%;
+	text-decoration:none;
+	font-family: 'Prata', serif;
+}
+
+.logouts {
+	float:right;
+	color:white;
+	text-decoration:none;
+	font-family: 'Prata', serif;
+}
+
+#bag {
+	float:right;
+	color:black;
+	font-family: 'Prata', serif;
+}
